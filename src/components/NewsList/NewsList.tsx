@@ -4,9 +4,9 @@ import styles from "./styles.module.css";
 
 // @ts-ignore
 const NewsList = ({ news }) => {
-    if (!news.length) {
-        return <p className={styles.empty}>Don't have news</p>;
-    }
+    // if (!news.length) {
+    //     return <p className={styles.empty}>Don't have news</p>;
+    // }
 
     return (
         <ul className={styles.list}>
